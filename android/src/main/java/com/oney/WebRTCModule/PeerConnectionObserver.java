@@ -1,5 +1,7 @@
 package com.oney.WebRTCModule;
 
+import javax.annotation.Nullable;
+
 import java.io.UnsupportedEncodingException;
 import java.lang.ref.SoftReference;
 import java.nio.ByteBuffer;
@@ -10,7 +12,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-import android.support.annotation.Nullable;
 import android.util.Base64;
 import android.util.Log;
 import android.util.SparseArray;
