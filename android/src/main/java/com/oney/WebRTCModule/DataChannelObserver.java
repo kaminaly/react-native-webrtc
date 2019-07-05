@@ -1,8 +1,9 @@
 package com.oney.WebRTCModule;
 
+import javax.annotation.Nullable;
+
 import java.nio.charset.Charset;
 
-import android.support.annotation.Nullable;
 import android.util.Base64;
 
 import com.facebook.react.bridge.Arguments;
