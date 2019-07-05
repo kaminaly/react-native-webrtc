@@ -27,9 +27,6 @@ android {
 }
 
 dependencies {
-    def supportLibVersion = safeExtGet('supportLibVersion', "23.0.0")
-    
-    api fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:appcompat-v7:$supportLibVersion"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.facebook.react:react-native:+'
 }
